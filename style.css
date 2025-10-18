@@ -24,7 +24,7 @@ img {
     text-align: center;
   }
 }
-.centered-main-page-element {
+.main-element {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -95,7 +95,7 @@ h3,
   display: block;
   margin: 0 0 20px;
 }
-#new-task {
+#new-task__input{
   width: 318px;
 }
 
@@ -151,14 +151,14 @@ li
 }
 
 ul 
-.edit-mode 
+.incomplete-tasks__item-edit-mode 
 .task-input {
   display: inline-block;
   width: 224px;
 }
 
 ul 
-.edit-mode 
+.incomplete-tasks__item-edit-mode
 label {
   display: none;
 }
